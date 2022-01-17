@@ -1,7 +1,6 @@
 document.querySelector('form').addEventListener('submit', (event) => {
     event.preventDefault();  
     myform();
-    
 });
 
     function myform() {
@@ -66,9 +65,6 @@ document.querySelector('form').addEventListener('submit', (event) => {
         alert("your data is submitted");
         location.reload();
    }
-   
-
-   
 }
     
 
