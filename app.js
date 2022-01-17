@@ -5,7 +5,7 @@ document.querySelector('form').addEventListener('submit', (event) => {
 });
 
     function myform() {
-        var username = document.getElementById("username").value;
+    var username = document.getElementById("username").value;
     var email = document.getElementById("email").value;
     var phoneNumber = document.getElementById("phoneNumber").value;
     var password = document.getElementById("password").value;
