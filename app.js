@@ -50,10 +50,9 @@ document.querySelector('form').addEventListener('submit', (event) => {
     if(password == ""){
         document.getElementById("pass").innerHTML="password is required";
     }else if(!password.match(passwordLatters)){
-        document.getElementById("pass").innerHTML="create strong password";
+        document.getElementById("pass").innerHTML="put 1 UpperCase Latter,1 number, special char and min length 8";
     }else{
         document.getElementById("pass").innerHTML="";
-        
     }
     var span = document.querySelectorAll("span");
     
