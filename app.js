@@ -69,6 +69,12 @@ function myform() {
 
 
 
+// // Login customer
+// router.route('/login').post(validate([
+//     body('email').notEmpty().withMessage(STATUS_MESSAGES.VALIDATION.VALID.USERNAME),
+//     body('password').notEmpty().withMessage(STATUS_MESSAGES.VALIDATION.VALID.PASSWORD)
+// ]), customerController.login)
+
 
 
 
